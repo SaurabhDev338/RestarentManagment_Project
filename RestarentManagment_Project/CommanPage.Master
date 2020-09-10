@@ -46,7 +46,7 @@
     <!-- SEARCH FORM -->
     <div class="form-inline ml-3">
       <div class="input-group input-group-sm">
-        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+      <asp:TextBox runat="server" ID="Txt_Search" CssClass="form-control form-control-navbar" placeholder="Search" aria-label="Search"></asp:TextBox>
         <div class="input-group-append">
           <button class="btn btn-navbar" type="submit">
             <i class="fas fa-search"></i>
@@ -57,8 +57,7 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">         
-      <li class="nav-item">
-        
+      <li class="nav-item">        
         <asp:LinkButton runat="server" ID="Lnk_Logout" Text="Logout"></asp:LinkButton>
       </li>
     </ul>
@@ -69,10 +68,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
-      <img src="../../dist/img/AdminLTELogo.png"
-           alt="AdminLTE Logo"
-           class="brand-image img-circle elevation-3"
-           style="opacity: .8">
+      <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
