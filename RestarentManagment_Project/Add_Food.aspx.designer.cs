@@ -11,71 +11,71 @@ namespace RestarentManagment_Project
 {
 
 
-    public partial class WebForm1
+    public partial class Add_Food
     {
 
         /// <summary>
-        /// Lbl_EmployeeID control.
+        /// Lbl_FoodID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_EmployeeID;
+        protected global::System.Web.UI.WebControls.Label Lbl_FoodID;
 
         /// <summary>
-        /// Txt_EmployeeID control.
+        /// Txt_FoodID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txt_EmployeeID;
+        protected global::System.Web.UI.WebControls.TextBox Txt_FoodID;
 
         /// <summary>
-        /// Lbl_EmpName control.
+        /// Lbl_FoodName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_EmpName;
+        protected global::System.Web.UI.WebControls.Label Lbl_FoodName;
 
         /// <summary>
-        /// Txt_EmpName control.
+        /// Txt_FoodName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txt_EmpName;
+        protected global::System.Web.UI.WebControls.TextBox Txt_FoodName;
 
         /// <summary>
-        /// Lbl_EmpImg control.
+        /// Lbl_FoodImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_EmpImg;
+        protected global::System.Web.UI.WebControls.Label Lbl_FoodImg;
 
         /// <summary>
-        /// Img_EmpImg control.
+        /// Img_FoodImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Img_EmpImg;
+        protected global::System.Web.UI.WebControls.Image Img_FoodImg;
 
         /// <summary>
-        /// File_EmpImg control.
+        /// File_FoodImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload File_EmpImg;
+        protected global::System.Web.UI.WebControls.FileUpload File_FoodImg;
 
         /// <summary>
         /// Btn_Upload control.
@@ -87,112 +87,112 @@ namespace RestarentManagment_Project
         protected global::System.Web.UI.WebControls.Button Btn_Upload;
 
         /// <summary>
-        /// Lbl_Gender control.
+        /// Lbl_FoodType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_Gender;
+        protected global::System.Web.UI.WebControls.Label Lbl_FoodType;
 
         /// <summary>
-        /// RadioBtn_Gender control.
+        /// DropDown_MenuType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioBtn_Gender;
+        protected global::System.Web.UI.WebControls.DropDownList DropDown_MenuType;
 
         /// <summary>
-        /// Lbl_ContactNo control.
+        /// Menu_Price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_ContactNo;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Menu_Price;
 
         /// <summary>
-        /// Txt_ContactNo control.
+        /// Lbl_HalfPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txt_ContactNo;
+        protected global::System.Web.UI.WebControls.Label Lbl_HalfPrice;
 
         /// <summary>
-        /// Lbl_Address control.
+        /// Txt_HalfPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_Address;
+        protected global::System.Web.UI.WebControls.TextBox Txt_HalfPrice;
 
         /// <summary>
-        /// Txt_Address control.
+        /// Lbl_FullPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txt_Address;
+        protected global::System.Web.UI.WebControls.Label Lbl_FullPrice;
 
         /// <summary>
-        /// Lbl_EmpType control.
+        /// Txt_FullPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_EmpType;
+        protected global::System.Web.UI.WebControls.TextBox Txt_FullPrice;
 
         /// <summary>
-        /// Dropdown_EmpType control.
+        /// Piece_Price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Dropdown_EmpType;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Piece_Price;
 
         /// <summary>
-        /// Lbl_Password control.
+        /// Lbl_PiecePrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_Password;
+        protected global::System.Web.UI.WebControls.Label Lbl_PiecePrice;
 
         /// <summary>
-        /// Txt_Password control.
+        /// Txt_PiecePrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txt_Password;
+        protected global::System.Web.UI.WebControls.TextBox Txt_PiecePrice;
 
         /// <summary>
-        /// Lbl_ConfirmPassword control.
+        /// Lbl_FoodCategory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_ConfirmPassword;
+        protected global::System.Web.UI.WebControls.Label Lbl_FoodCategory;
 
         /// <summary>
-        /// Txt_ConfirmPassword control.
+        /// DropDown_FoodCategory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txt_ConfirmPassword;
+        protected global::System.Web.UI.WebControls.DropDownList DropDown_FoodCategory;
 
         /// <summary>
         /// Btn_Submit control.

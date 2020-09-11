@@ -37,7 +37,7 @@
                 <div class="card-body">
                     <div class="form-group">
                     <asp:Label runat="server" ID="Lbl_EmployeeID" Text="Employee ID"></asp:Label>
-                    <asp:TextBox runat="server" CssClass="form-control" ReadOnly="true" ></asp:TextBox>
+                    <asp:TextBox runat="server" ID="Txt_EmployeeID" CssClass="form-control" ReadOnly="true" ></asp:TextBox>
                     </div>
                   <div class="form-group">                    
               <asp:Label runat="server" ID="Lbl_EmpName" Text="Employee Name"></asp:Label>
@@ -47,7 +47,7 @@
                       <asp:Label runat="server" ID="Lbl_EmpImg" Text="Image"></asp:Label><br />
                       <asp:Image runat="server" ID="Img_EmpImg" Height="100px" Width="100px" /><br />
                       <asp:FileUpload runat="server" ID="File_EmpImg" />
-                      <asp:Button runat="server" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                      <asp:Button runat="server" ID="Btn_Upload" Text="Upload" CssClass="btn btn-primary btn-sm" />
                   </div>
                   <div class="form-group">
                     <asp:Label runat="server" ID="Lbl_Gender" Text="Gender"></asp:Label>
@@ -61,7 +61,7 @@
                      <asp:TextBox runat="server" ID="Txt_ContactNo" CssClass="form-control" placeholder="Enter Contact Number"></asp:TextBox>
                  </div>
                     <div class="form-group">
-                        <asp:Label runat="server" ID="Address" Text="Address"></asp:Label>
+                        <asp:Label runat="server" ID="Lbl_Address" Text="Address"></asp:Label>
                         <asp:TextBox runat="server" ID="Txt_Address" placeholder="Enter Address" CssClass="form-control" Height="100px" TextMode="MultiLine"></asp:TextBox>
                     </div>
                     <div class="form-group">
@@ -88,6 +88,24 @@
               </div>
             </div>
               </div>
+             <div class="col-md-7">
+            <!-- general form elements -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Employee Details</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <div role="form">
+                <div class="card-body">
+                    <div class="form-group">
+
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+
+</div>
             </div>
           </div>
          </section>

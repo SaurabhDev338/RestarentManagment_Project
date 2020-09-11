@@ -87,6 +87,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Add_Food.aspx" />
     <Content Include="build\config\postcss.config.js" />
     <Content Include="build\config\rollup.config.js" />
     <Content Include="build\js\AdminLTE.js" />
@@ -105,6 +106,7 @@
     <Content Include="build\npm\DocsPublish.js" />
     <Content Include="build\npm\Plugins.js" />
     <Content Include="build\npm\Publish.js" />
+    <Content Include="Cheff.aspx" />
     <Content Include="dist\css\adminlte.css" />
     <Content Include="dist\css\adminlte.min.css" />
     <Content Include="dist\css\alt\adminlte.components.css" />
@@ -157,6 +159,7 @@
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
     <Content Include="dist\js\pages\dashboard3.js" />
+    <Content Include="Master_Page.aspx" />
     <Content Include="plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
@@ -1715,10 +1718,32 @@
     <Content Include="plugins\toastr\toastr.css" />
     <Content Include="plugins\toastr\toastr.min.css" />
     <Content Include="plugins\toastr\toastr.min.js" />
+    <Content Include="Table_Panel.aspx" />
     <Content Include="Web.config" />
     <Content Include="Add_Employee.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Food.aspx.cs">
+      <DependentUpon>Add_Food.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Food.aspx.designer.cs">
+      <DependentUpon>Add_Food.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cheff.aspx.cs">
+      <DependentUpon>Cheff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cheff.aspx.designer.cs">
+      <DependentUpon>Cheff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Page.aspx.cs">
+      <DependentUpon>Master_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Page.aspx.designer.cs">
+      <DependentUpon>Master_Page.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CommanPage.Master.cs">
       <DependentUpon>CommanPage.Master</DependentUpon>
@@ -1733,6 +1758,13 @@
     </Compile>
     <Compile Include="Add_Employee.aspx.designer.cs">
       <DependentUpon>Add_Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Table_Panel.aspx.cs">
+      <DependentUpon>Table_Panel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Table_Panel.aspx.designer.cs">
+      <DependentUpon>Table_Panel.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
