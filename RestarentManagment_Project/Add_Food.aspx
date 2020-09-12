@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CommanPage.Master" AutoEventWireup="true" CodeBehind="Add_Food.aspx.cs" Inherits="RestarentManagment_Project.Add_Food" %>
+﻿<%@ Page Title="Add Food" Language="C#" MasterPageFile="~/CommanPage.Master" AutoEventWireup="true" CodeBehind="Add_Food.aspx.cs" Inherits="RestarentManagment_Project.Add_Food" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

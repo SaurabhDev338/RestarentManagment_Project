@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CommanPage.Master" AutoEventWireup="true" CodeBehind="Master_Page.aspx.cs" Inherits="RestarentManagment_Project.Master_Page" %>
+﻿<%@ Page Title="Master Page" Language="C#" MasterPageFile="~/CommanPage.Master" AutoEventWireup="true" CodeBehind="Master_Page.aspx.cs" Inherits="RestarentManagment_Project.Master_Page" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -41,7 +41,12 @@
                                         <asp:Label runat="server" ID="Lbl_CompanyName" Text="Company Name"></asp:Label>
                                         <asp:TextBox runat="server" ID="Txt_CompanyName" placeholder="Enter Company Name" CssClass="form-control"></asp:TextBox>
                                     </div>
-
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_Logo" Text="Logo"></asp:Label><br />
+                                        <asp:Image runat="server" ID="Img_Logo" Height="100px" Width="100px" /><br />
+                                        <asp:FileUpload runat="server" ID="File_Logo" />
+                                        <asp:Button runat="server" ID="Btn_UploadLogo" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                    </div>
                                 </div>
                                 <!-- /.card-body -->
                                 <div class="card-footer">
@@ -68,8 +73,8 @@
 
                     </div>
                 </div>
-            
-                 <div class="row">
+
+                <div class="row">
                     <!-- left column -->
                     <div class="col-md-5">
                         <!-- general form elements -->
@@ -82,9 +87,24 @@
                             <div role="form">
                                 <div class="card-body">
                                     <div class="form-group">
-                                        <asp:Label runat="server" ID="Label2" Text="Company Name"></asp:Label>
-                                        <asp:TextBox runat="server" ID="TextBox2" placeholder="Enter Company Name" CssClass="form-control"></asp:TextBox>
+                                        <asp:Label runat="server" ID="Lbl_Banner1" Text="Banner1"></asp:Label><br />
+                                        <asp:Image runat="server" ID="Img_Banner1" Height="200px" Width="400px" /><br />
+                                        <asp:FileUpload runat="server" ID="File_Banner1" />
+                                        <asp:Button runat="server" ID="Btn_UploadBanner1" Text="Upload" CssClass="btn btn-primary btn-sm" />
                                     </div>
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_Banner2" Text="Banner2"></asp:Label><br />
+                                        <asp:Image runat="server" ID="Img_Banner2" Height="200px" Width="400px" /><br />
+                                        <asp:FileUpload runat="server" ID="File_Banner2" />
+                                        <asp:Button runat="server" ID="Btn_UploadBanner2" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_Banner3" Text="Banner3"></asp:Label><br />
+                                        <asp:Image runat="server" ID="Img_Banner3" Height="200px" Width="400px" /><br />
+                                        <asp:FileUpload runat="server" ID="File_Banner3" />
+                                        <asp:Button runat="server" ID="Btn_UploadBanner3" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                    </div>
+
 
                                 </div>
                                 <!-- /.card-body -->
@@ -113,7 +133,7 @@
                     </div>
                 </div>
 
-              <div class="row">
+                <div class="row">
                     <!-- left column -->
                     <div class="col-md-5">
                         <!-- general form elements -->
@@ -126,16 +146,33 @@
                             <div role="form">
                                 <div class="card-body">
                                     <div class="form-group">
-                                        <asp:Label runat="server" ID="Label1" Text="Company Name"></asp:Label>
-                                        <asp:TextBox runat="server" ID="TextBox1" placeholder="Enter Company Name" CssClass="form-control"></asp:TextBox>
+                                        <asp:Label runat="server" ID="Lbl_Menu" Text="Menu"></asp:Label>
+                                        <asp:TextBox runat="server" ID="Txt_Menu" placeholder="Menu Name" CssClass="form-control"></asp:TextBox>
                                     </div>
-
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_Image" Text="Image"></asp:Label><br />
+                                        <asp:Image runat="server" ID="Img_MenuImage" Height="200px" Width="400px" /><br />
+                                        <asp:FileUpload runat="server" ID="File_MenuImage" />
+                                        <asp:Button runat="server" ID="Btn_UploadMenuImg" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_Offers" Text="Offer%"></asp:Label>
+                                        <asp:TextBox runat="server" ID="Txt_Offers" placeholder="Offers %" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_Discription" Text="Discription"></asp:Label>
+                                        <asp:TextBox runat="server" ID="Txt_Discription" placeholder="Discription" CssClass="form-control" Height="100px" TextMode="MultiLine"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label runat="server" ID="Lbl_ValidDays" Text="Valid Days"></asp:Label>
+                                        <asp:TextBox runat="server" ID="Txt_ValidDays" placeholder="Valid Days" CssClass="form-control"></asp:TextBox>
+                                    </div>
                                 </div>
                                 <!-- /.card-body -->
                                 <div class="card-footer">
-                                    <asp:Button runat="server" ID="Button1" Text="Submit" CssClass="btn btn-primary" />
-                                    <asp:Button runat="server" ID="Button2" Text="Update" CssClass="btn btn-primary" />
-                                    <asp:Button runat="server" ID="Button3" Text="Reset" CssClass="btn btn-primary" />
+                                    <asp:Button runat="server" ID="Btn_SubmitOffers" Text="Submit" CssClass="btn btn-primary" />
+                                    <asp:Button runat="server" ID="Btn_UpdateOffers" Text="Update" CssClass="btn btn-primary" />
+                                    <asp:Button runat="server" ID="Btn_ResetOffers" Text="Reset" CssClass="btn btn-primary" />
                                 </div>
                             </div>
                         </div>
@@ -157,7 +194,7 @@
                     </div>
                 </div>
 
-                  <div class="row">
+                <div class="row">
                     <!-- left column -->
                     <div class="col-md-5">
                         <!-- general form elements -->
@@ -178,7 +215,7 @@
                                 <!-- /.card-body -->
                                 <div class="card-footer">
                                     <asp:Button runat="server" ID="Btn_SubmitTableNo" Text="Submit" CssClass="btn btn-primary" />
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -193,6 +230,7 @@
                             <!-- form start -->
                             <div role="form">
                                 <div class="card-body">
+
                                 </div>
                             </div>
                         </div>
@@ -200,7 +238,7 @@
                     </div>
                 </div>
 
-                  <div class="row">
+                <div class="row">
                     <!-- left column -->
                     <div class="col-md-5">
                         <!-- general form elements -->
@@ -237,7 +275,6 @@
                             <!-- form start -->
                             <div role="form">
                                 <div class="card-body">
-
                                 </div>
                             </div>
                         </div>
