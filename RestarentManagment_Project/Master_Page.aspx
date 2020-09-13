@@ -45,7 +45,7 @@
                                         <asp:Label runat="server" ID="Lbl_Logo" Text="Logo"></asp:Label><br />
                                         <asp:Image runat="server" ID="Img_Logo" Height="100px" Width="100px" /><br />
                                         <asp:FileUpload runat="server" ID="File_Logo" />
-                                        <asp:Button runat="server" ID="Btn_UploadLogo" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                        <asp:Button runat="server" ID="Btn_UploadLogo" Text="Upload" CssClass="btn btn-primary btn-sm" OnClick="Btn_UploadLogo_Click" />
                                     </div>
                                 </div>
                                 <!-- /.card-body -->
@@ -89,20 +89,20 @@
                                     <div class="form-group">
                                         <asp:Label runat="server" ID="Lbl_Banner1" Text="Banner1"></asp:Label><br />
                                         <asp:Image runat="server" ID="Img_Banner1" Height="200px" Width="400px" /><br />
-                                        <asp:FileUpload runat="server" ID="File_Banner1" />
-                                        <asp:Button runat="server" ID="Btn_UploadBanner1" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                        <asp:FileUpload runat="server" ID="File_Banner1"  />
+                                        <asp:Button runat="server" ID="Btn_UploadBanner1" Text="Upload" OnClick="Btn_UploadBanner1_Click" CssClass="btn btn-primary btn-sm" />
                                     </div>
                                     <div class="form-group">
                                         <asp:Label runat="server" ID="Lbl_Banner2" Text="Banner2"></asp:Label><br />
                                         <asp:Image runat="server" ID="Img_Banner2" Height="200px" Width="400px" /><br />
                                         <asp:FileUpload runat="server" ID="File_Banner2" />
-                                        <asp:Button runat="server" ID="Btn_UploadBanner2" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                        <asp:Button runat="server" ID="Btn_UploadBanner2" Text="Upload" OnClick="Btn_UploadBanner2_Click" CssClass="btn btn-primary btn-sm" />
                                     </div>
                                     <div class="form-group">
                                         <asp:Label runat="server" ID="Lbl_Banner3" Text="Banner3"></asp:Label><br />
                                         <asp:Image runat="server" ID="Img_Banner3" Height="200px" Width="400px" /><br />
                                         <asp:FileUpload runat="server" ID="File_Banner3" />
-                                        <asp:Button runat="server" ID="Btn_UploadBanner3" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                        <asp:Button runat="server" ID="Btn_UploadBanner3" Text="Upload" OnClick="Btn_UploadBanner3_Click" CssClass="btn btn-primary btn-sm" />
                                     </div>
 
 
@@ -153,7 +153,7 @@
                                         <asp:Label runat="server" ID="Lbl_Image" Text="Image"></asp:Label><br />
                                         <asp:Image runat="server" ID="Img_MenuImage" Height="200px" Width="400px" /><br />
                                         <asp:FileUpload runat="server" ID="File_MenuImage" />
-                                        <asp:Button runat="server" ID="Btn_UploadMenuImg" Text="Upload" CssClass="btn btn-primary btn-sm" />
+                                        <asp:Button runat="server" ID="Btn_UploadMenuImg" Text="Upload" CssClass="btn btn-primary btn-sm" OnClick="Btn_UploadMenuImg_Click" />
                                     </div>
                                     <div class="form-group">
                                         <asp:Label runat="server" ID="Lbl_Offers" Text="Offer%"></asp:Label>
