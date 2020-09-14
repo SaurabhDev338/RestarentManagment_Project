@@ -30,10 +30,7 @@ namespace RestarentManagment_Project
                         File_Logo.SaveAs(Server.MapPath("Images/" + FileName));
                         this.Img_Logo.ImageUrl = "Images/" + FileName;
                     }
-               
-                
-               
-               
+                                                           
                
             }
             catch(Exception ex)
